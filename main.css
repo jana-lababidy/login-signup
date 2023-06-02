@@ -1,0 +1,37 @@
+body{
+    background-color: whitesmoke;
+}
+div{
+    background-image: url(back.jpg);
+    color: rgb(192, 157, 106);
+    font-family:Helvetica, sans-serif;  
+    text-align: center;
+    margin: 0 auto;
+    border: 5px solid rgb(213, 107, 213); /* border style for the container */
+    border-style: outset;
+    padding: 20px; /* padding around the content inside the container */
+    width: 500px; /* set the width of the container */
+    height: auto;
+    box-shadow: 0px 2px 2px  rgb(192, 157, 106); /* add a subtle shadow effect */
+}
+#username,#email,#password,#day,#year,#month,#gender{
+    width: 150px;
+    height: 18px;
+    color: rgb(213, 107, 213);
+}
+h1,a{
+    color: rgb(213, 107, 213);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input[type="submit"] {
+    width: 100px; /* This will make the button 200 pixels wide */
+    height: 25px; /* This will make the button 50 pixels high */
+    background-color: white;
+    color: purple;
+ 
+    border-radius: 5px;
+  }
+  ::placeholder{
+    color: blueviolet;
+  }
